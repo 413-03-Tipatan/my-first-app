@@ -1,6 +1,6 @@
 import streamlit as st
-st.til"แอปพเคชั่นแปลงปี พ.ศ. เป้น ค.ศ.")
+st.title("แอปพเคชั่นแปลงปี พ.ศ. เป้น ค.ศ.")
 
-bh_year=st.number_input("กรอกปี พ.ศ. ที่ต้องการแปลง.,value=2569)
+bh_year=st.number_input("กรอกปี พ.ศ. ที่ต้องการแปลง",value=2569)
 ce_year=bh_year-543
-st.headra(f"ปี ค.ศ. คือ : {ce_year}')
+st.headra(f"ปี ค.ศ. คือ : {ce_year}")
